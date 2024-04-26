@@ -35,10 +35,6 @@ def word_sample(w):
     print(f"Tabriklayman topdingiz! Siz kiritgan harflar: {','.join(entered_letters)}\n"
             f"Urinishlar soni: {len(entered_letters)}")
     print(f"{','.join(removed_same)}")
-        # if '-' in empty:
-        #     continue
-        # else:
-        #     break
 
 indx = randint(0,len(word_list)-1)
 one_word = word_list[indx]
