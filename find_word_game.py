@@ -23,7 +23,7 @@ def word_sample(w):
             print("Bu harfni avval kiritgansiz. Boshqa harf kiriting:")
         else:
             print("Bunday harf yo'q.")
-     removed_same = list(dict.fromkeys(entered_letters))
+    removed_same = list(dict.fromkeys(entered_letters))
     print(f"Tabriklayman topdingiz! Siz kiritgan harflar: {','.join(entered_letters)}\n"
             f"Urinishlar soni: {len(entered_letters)}")
     print(f"{','.join(removed_same)}")
